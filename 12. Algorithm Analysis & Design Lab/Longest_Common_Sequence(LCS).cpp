@@ -1,7 +1,7 @@
 #include<iostream> 
 #include<string.h>
 using namespace std;
-
+// Longest common sequence
 int m, n;
 
 class LCS{
