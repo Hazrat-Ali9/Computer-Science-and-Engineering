@@ -36,3 +36,5 @@ bool checkWinner(int ** table, int x, int y, int ** keepPoints, int size, char p
 // helpers for CheckWinner
 bool check(int **table, int x, int y, int **keepPositions, int size, char player);
 bool isValid(int **table, int x, int y, int size, char player);
+
+// Helpers
