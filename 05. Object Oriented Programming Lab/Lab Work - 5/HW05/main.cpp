@@ -17,11 +17,7 @@ using namespace HexOguz;
 
 namespace HexOguz
 {
-   // expected global function.
-   // check for all invalid circumstances
-   // if size is bigger than 6 then return false
-   // if this board contains invalid character than return false
-   // otherwise return true.
+   
     bool checkValidHex(AbstractHex** AbstractArr, int count)
     {
         for (int i = 0; i < count; i++)
@@ -225,3 +221,5 @@ void checkCinForFail()
         cin.ignore(100,'\n');
     }
 }
+
+// cheak cin for fail
